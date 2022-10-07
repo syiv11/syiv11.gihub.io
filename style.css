@@ -1,0 +1,89 @@
+body {
+    font-family: "Times New Roman";
+}
+li {
+    list-style: none;
+}
+.header {
+    background-color: pink;
+    height: 90px;
+}
+
+.header-logo {
+    font-size: 36px;
+    float: left;
+    padding: 20px 40px;
+}
+.header-list li{
+    float: right;
+    padding: 33px 80px;
+}
+
+.main {
+    background-color: aqua;
+    height: 110px 90px;
+}
+
+
+.copy-container h1{
+    font-size: 140px;
+}
+
+.section-title {
+    border-bottom: 2px solid #dee7ec; /*batas*/
+}
+
+.content { /*konten*/
+    width: 1200px;
+    height: auto;
+    margin: 10px auto; /*margin*/
+    text-align: justify;
+}
+
+.kolom-koran{ 
+    -webkit-column-count: 3; /*untuk chrome, safari, dan opera*/
+    -moz-column-count: 3; /*khusus untuk mozilla*/
+    column-count: 3;
+
+}
+
+.submit-contact{
+    background-color: white;
+    color: black;
+}
+
+.contact-form{
+    padding-left: 60px;
+}
+input,text {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+input,textarea{
+    border: 1px solid #dee7ec;
+}
+
+.sumbit-contact{
+    background-color: #dee7ec;
+    color: pink;
+}
+.footer {
+    background-color: rgb(231, 21, 126);
+    height: 120px;
+    padding: 20px 40px;
+}
+.footer-logo {
+    font-size: 40px;
+    float: left;
+}
+.footer-list{
+    float: right;
+}
+.footer-list li{
+    float: right;
+    padding: 33px 80px;
+}
